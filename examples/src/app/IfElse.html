@@ -1,0 +1,23 @@
+<div>
+<input type="radio" name="rad1" (click)="changeValue(true)"/>True
+<input type="radio" name="rad" (click)="changeValue(false)"/>False
+</div>
+<div *ngIf="isValid; else elseBlock">
+    <b>data is valid</b>
+</div>
+<ng-template #elseBlock>
+    <div>
+    <b>data is Invalid</b>
+</div>
+</ng-template>
+
+<div>Enter Age:<input type="text" [(ngModel)]=age>
+</div>
+<div *ngIf="age < 18; else elseAgeBlock">
+    <b>Not Eligible to vote</b>
+</div>
+<ng-template #elseAgeBlock>
+    <div>
+    <b>Eligible to vote</b>
+</div>
+</ng-template>

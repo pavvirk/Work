@@ -1,0 +1,8 @@
+<h4>Assignment 4</h4>
+		<ul *ngFor="let employee of Employees">   
+            Employee Name : {{ employee.name }} <br/>
+            Employee Id :{{ employee.id }}
+           <p *ngIf="employee.id > 20 && employee.id < 30"> Employee salary :  {{ employee.Salary }}</p>
+        </ul>	
+       
+		

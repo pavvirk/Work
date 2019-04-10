@@ -1,0 +1,6 @@
+<h4>Trainers</h4>
+<ul *ngFor="let person of people">
+    <li *ngIf="person.age>30">
+      <h1>  {{person.name}}</h1><h2>({{person.age}})</h2>
+    </li>
+</ul>
