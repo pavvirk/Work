@@ -1,0 +1,39 @@
+
+table,th,td{
+  border: 1px solid black;
+  font-size: 30px;
+  padding: 10px;
+}
+.dis{
+  visibility: none;
+}
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+textarea{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+select{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+from,label,input{
+  font-size: 30px;
+  padding: 10px;
+}
+
+a{
+  color: blue;
+  font-size:20px;
+}
+
+aLhover{
+  cursor: pointer;
+  color:blue;
+}
+

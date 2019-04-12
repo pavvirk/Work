@@ -1,0 +1,12 @@
+<h2>Update Student details</h2>
+<form id="formNewStudent" name="formNewStudent" #studentData="ngForm" (ngSubmit)="updateStudent(studentData.value)">
+<label>First_Name:</label>
+ <input type="text" name="name" class="dis"  id="name" [(ngModel)]="data.first_name"><br>
+ <label>score</label>
+ <input type="text" name="score" id="score" [(ngModel)]="data.score" ngModel><br>
+ <label>Skill</label>
+ <input type="text" name="skill" id="skill" [(ngModel)]="data.Skill" ngModel ><br>
+<label>Comments</label>
+<input type="text" name="comments" id="comments" [(ngModel)]="data.comment" ngModel ><br>
+<input type="submit" value="Update Student">
+</form>

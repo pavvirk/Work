@@ -1,0 +1,39 @@
+{
+  "student": [
+    {
+      "first_name": "shailaja",
+      "score": "55",
+      "Skill": "OOP",
+      "comment": "show the method",
+      "id": 9
+    },
+    {
+      "first_name": "Mary",
+      "score": "34",
+      "Skill": "OOP",
+      "comment": "show the method",
+      "id": 9
+    },
+    {
+      "first_name": "Ganesh",
+      "score": "34",
+      "Skill": "OOP",
+      "comment": "show the method",
+      "id": 9
+    },
+    {
+      "first_name": "Jayashree",
+      "score": "34",
+      "Skill": "OOP",
+      "comment": "show the method",
+      "id": 9
+    },
+    {
+      "first_name": "Roja",
+      "score": "34",
+      "Skill": "OOP",
+      "comment": "show the method",
+      "id": 9
+    }
+  ]
+}

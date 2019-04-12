@@ -1,0 +1,17 @@
+<a routerLink="/">back</a>
+<h2>Add Student details</h2>
+<form id="formNewStudent" name="formNewStudent" #studentData="ngForm" (ngSubmit)="addNewStudent(studentData.value)">
+<label>First_Name:</label>
+ <select id="name" [(ngModel)]="name" name="name">
+     <option *ngFor="let stu of student" [ngValue]="stu.first_name">{{stu.first_name}}</option>
+ </select><br>
+ <label>score</label>
+ <input type="text" name="score" class ="text_line" id="score" ngModel required maxlength="3"><br>
+ <label>Skill</label>
+ <select id = "skill" [(ngModel)]="skill" name="skill">
+  <option *ngFor="let skill of skillNames" [ngValue]= "skill">{{skill}}</option>
+ </select><br>
+<label>Comments</label>
+<textarea name="comments" id="comments" ngModel required></textarea><br>
+ <input type="submit" value="Add Student" [disabled]="!studentData.form.valid">
+</form>
