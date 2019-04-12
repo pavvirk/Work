@@ -1,0 +1,40 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "first_name": "Mahesh",
+      "last_name": "H K",
+      "city": "Mysore"
+    },
+    {
+      "id": 2,
+      "first_name": "Ramesh",
+      "last_name": "B K",
+      "city": "Raichur"
+    },
+    {
+      "id": 3,
+      "first_name": "Suresh",
+      "last_name": "D K",
+      "city": "Bengaluru"
+    },
+    {
+      "id": 4,
+      "first_name": "Girish",
+      "last_name": "M B",
+      "city": "Mandya"
+    },
+    {
+      "id": 5,
+      "first_name": "Manish",
+      "last_name": " M G",
+      "city": "Mysore"
+    },
+    {
+      "first_name": "aaa",
+      "last_name": "aaa",
+      "city": "aaa",
+      "id": 6
+    }
+  ]
+}

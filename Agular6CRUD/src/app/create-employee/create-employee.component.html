@@ -1,0 +1,19 @@
+<h2><a [routerLink]="['/home']">Go to Employee Details</a></h2>
+<h1>Add Employee</h1>
+<form #f="ngForm">
+  <label id="formHeader">FirstName</label>
+  <input type="text" name="first_name" [(ngModel)]="selectedEmployee.first_name" />
+  <br />
+  <label id="formHeader">LastName</label>
+  <input type="text" name="last_name" [(ngModel)]="selectedEmployee.last_name" />
+  <br />
+  <label id="formHeader">City</label>
+  <input type="text" name="city" [(ngModel)]="selectedEmployee.city" />
+  <br/>
+  <input
+    type="button"
+    id="addEmployeeButton"
+    (click)="addEmployee(f)"
+    value="Add Employee"
+  />
+</form>

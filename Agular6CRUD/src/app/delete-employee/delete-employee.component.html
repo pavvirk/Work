@@ -1,0 +1,22 @@
+<h2><a [routerLink]="['/home']">Go to Employee Details</a></h2>
+<h1>Delete Employee</h1>
+<form #f="ngForm">
+  <label id="formHeader">ID</label>
+  <input type="number" name="id" />
+  <br />
+  <label id="formHeader">First Name</label>
+  <input type="text" name="name" [(ngModel)]="selectedEmployee.first_name" />
+  <br />
+  <label id="formHeader">Last Name</label>
+  <input type="text" name="name" [(ngModel)]="selectedEmployee.last_name" />
+  <br />
+  <label id="formHeader">City</label>
+  <input type="text" name="city" [(ngModel)]="selectedEmployee.city" />
+  <br />
+  <input
+    type="button"
+    id="addEmployeeButton"
+    (click)="deleteEmployee(f)"
+    value="Delete Employee"
+  />
+</form>

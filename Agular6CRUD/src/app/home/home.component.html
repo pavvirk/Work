@@ -1,0 +1,24 @@
+<h2><a [routerLink]="['/createEmployee']">Add New Employee</a></h2>
+
+<h1>Employee Details</h1>
+
+<table border='1' width='100%' style='border-collapse: collapse;'>
+  <tr>
+    <th>ID</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>City</th>
+    <th>Operations</th>
+  </tr>
+
+  <tr *ngFor="let employee of employees">
+    <td>{{ employee.id }}</td>
+    <td>{{ employee.first_name }}</td>
+    <td>{{ employee.last_name }}</td>
+    <td>{{ employee.city }}</td>
+    <td>
+      <button [routerLink]="['/updateEmployee',employee.id]">Update</button>
+      <button id="delete" (click)="deleteEmployee(employee.id)">Delete</button>
+    </td>
+  </tr>
+</table>

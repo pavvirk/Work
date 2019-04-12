@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: #3498db;
+}
+
+h2 {
+    text-align: center;
+    color: #8e44ad;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #8e44ad;
+
+}
