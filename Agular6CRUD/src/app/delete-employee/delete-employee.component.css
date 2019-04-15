@@ -39,12 +39,12 @@ h1 {
   background-color: red;
 }
 
-#addProductButton {
+#addEmployeeButton {
   background-color: #2c82c9;
   margin-bottom: 6px;
 }
 
-#updateProductButton {
+#updateEmployeeButton {
   background-color: #f15a22;
 }
 

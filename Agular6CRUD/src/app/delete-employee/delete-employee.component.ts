@@ -18,9 +18,9 @@ export class DeleteEmployeeComponent implements OnInit {
   constructor(private apiService: ApiService, private router: Router) { }
 
   // Delete Employee by id
-  deleteNewProduct(id) {
+  deleteEmployee(id) {
     console.log(id);
-    this.apiService.deleteProduct(id).subscribe(() => {
+    this.apiService.deleteEmployee(id).subscribe(() => {
       console.log("Employee deleted"+id);
       this.router.navigateByUrl('/home');
     });
