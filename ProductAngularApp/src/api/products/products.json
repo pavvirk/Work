@@ -1,52 +1,1323 @@
 [
     {
-        "courseId": 1,
-        "courseName": "OOJS",
-        "courseCode": "OO-0011",
-        "releaseDate": "March 19, 2016",
-        "description": "This Course explains you about Object Oriented JavaScript",
-        "price": 19.95,
-        "starRating": 3.2,
-        "imageUrl": "./assets/images/OOJS.jpg"
+        "courseId": "DB001",
+        "name": "MongoDB",
+        "duration": 0,
+        "shortDescription": "Complete Guide on NoSQL Databases and MongoDb",
+        "longDescription": "Covers from basics to advanced topics",
+        "authors": [
+            {
+                "authorId": "9",
+                "authorName": "Roja P",
+                "authorURI": "/9"
+            }
+        ],
+        "complexityLevel": 3,
+        "imagePath": "http://172.26.76.71/myimages/Mongo.png",
+        "courseUpdatedDate": "2019-01-07T00:00:00",
+        "courseObjectives": "Learn NoSql Databases, Learn MongoDb, Develop Application using MongoDb",
+        "prerequisites": "Awareness of RDBMS, Interest to learn",
+        "overallRating": "4",
+        "categories": [
+            1,
+            6,
+            14
+        ],
+        "skillIds": [
+            1
+        ],
+        "keywords": [
+            "NoSQL",
+            "Cosmos",
+            "Mongo",
+            "Database",
+            "Cloud",
+            "Azure"
+        ],
+        "hasQuiz": true,
+        "hasExercises": true,
+        "courseContents": [
+            {
+                "topicId": 1,
+                "name": "Introduction ",
+                "duration": 1.37,
+                "subTopics": [
+                    {
+                        "topicId": 1,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "Introduction",
+                        "duration": 0.41,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "http://172.26.76.71/myimages/videos/Introduction+to+MongoDB/01_Introduction/01_Introduction.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 1,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Overview",
+                        "duration": 0.41,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "http://172.26.76.71/myimages/videos/Introduction+to+MongoDB/01_Introduction/02_Overview.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 1,
+                        "subTopicId": 3,
+                        "parentSubTopicId": 0,
+                        "name": "Scalability",
+                        "duration": 0.41,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "http://172.26.76.71/myimages/videos/Introduction+to+MongoDB/01_Introduction/03_Scalability.mp4"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "topicId": 2,
+                "name": "Introduction to MongoDB",
+                "duration": 5.37,
+                "subTopics": [
+                    {
+                        "topicId": 2,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "Introduction",
+                        "duration": 1,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "http://172.26.76.71/myimages/videos/Introduction+to+MongoDB/02_Introduction to MongoDB/01_Introduction.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Downloading",
+                        "duration": 0.41,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "http://172.26.76.71/myimages/videos/Introduction+to+MongoDB/02_Introduction to MongoDB/02_Downloading.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 3,
+                        "parentSubTopicId": 0,
+                        "name": "Package Content",
+                        "duration": 0.41,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "http://172.26.76.71/myimages/videos/Introduction+to+MongoDB/02_Introduction to MongoDB/03_Package Content.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 4,
+                        "parentSubTopicId": 0,
+                        "name": "Command Line Options",
+                        "duration": 0.41,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "http://172.26.76.71/myimages/videos/Introduction+to+MongoDB/02_Introduction to MongoDB/05_Command Line Options.mp4"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "topicId": 3,
+                "name": "The Mongo Shell",
+                "duration": 10.37,
+                "subTopics": [
+                    {
+                        "topicId": 3,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "Introduction",
+                        "duration": 1,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "http://172.26.76.71/myimages/videos/Introduction+to+MongoDB/03_The Mongo Shell/01_Introduction.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Shell Role in Ecosystem",
+                        "duration": 0.41,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "http://172.26.76.71/myimages/videos/Introduction+to+MongoDB/03_The Mongo Shell//02_Shell Role in Ecosystem.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 3,
+                        "parentSubTopicId": 0,
+                        "name": "Shell Modes",
+                        "duration": 0.41,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "http://172.26.76.71/myimages/videos/Introduction+to+MongoDB/03_The Mongo Shell//03_Shell Modes.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 4,
+                        "parentSubTopicId": 0,
+                        "name": "Shell Invoking Syntax",
+                        "duration": 0.41,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "http://172.26.76.71/myimages/videos/Introduction+to+MongoDB/03_The Mongo Shell//04_Shell Invoking Syntax.mp4"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
-        "courseId": 2,
-        "courseName": "HTML",
-        "courseCode": "HT-0023",
-        "releaseDate": "March 18, 2016",
-        "description": "After completion of this course you can design a Web page",
-        "price": 32.99,
-        "starRating": 4.2,
-        "imageUrl":"./assets/images/HTML.jpg"
+        "courseId": "ML00001",
+        "name": "Data Science-The Big Picture",
+        "duration": 60,
+        "shortDescription": "Data science is transforming raw data, into action. ",
+        "longDescription": "This course will teach you about the tools, technologies, and trends driving the data science revolution",
+        "authors": [
+            {
+                "authorId": "1",
+                "authorName": "Mike R",
+                "authorURI": "/1"
+            }
+        ],
+        "complexityLevel": 4,
+        "imagePath": "http://172.26.76.71/myimages/DataScience.jpg",
+        "courseUpdatedDate": "2018-02-08T00:00:00",
+        "courseObjectives": "Learn What is Data Science, Tools and Technologies ",
+        "prerequisites": "Good understanding of data and databases",
+        "overallRating": "4.7",
+        "categories": [
+            14,
+            6,
+            1
+        ],
+        "skillIds": [
+            5
+        ],
+        "keywords": [
+            "Database",
+            "Data Science",
+            "Machine Learning"
+        ],
+        "hasQuiz": true,
+        "hasExercises": true,
+        "courseContents": []
     },
     {
-        "courseId": 4,
-        "courseName": "Core Java",
-        "courseCode": "JA-0048",
-        "releaseDate": "June, 2006",
-        "description": "Core Java",
-        "price": 8.9,
-        "starRating": 4.8,
-        "imageUrl": "./assets/images/corejava.jpg"
+        "courseId": "Lan00001",
+        "name": "C# - Deep Dive",
+        "duration": 160,
+        "shortDescription": "Course starts with basic concepts to all latest features of C#. Provides all real world examples",
+        "longDescription": "This course covers C# from scratch. starts with Object oriented programming using C# and moves gradually covering all features of C# from Version 1.0 to 7.0 ",
+        "authors": [
+            {
+                "authorId": "4",
+                "authorName": "Rita M",
+                "authorURI": "/4"
+            }
+        ],
+        "complexityLevel": 4,
+        "imagePath": "http://172.26.76.71/myimages/Csharp.jpg",
+        "courseUpdatedDate": "2018-02-06T00:00:00",
+        "courseObjectives": "Understand highlights of C# language, learn how to write OO programming using C#, get good understanding of various features of C# like delegates, lambdas, collections, etc",
+        "prerequisites": "Desire to learn",
+        "overallRating": "4.9",
+        "categories": [
+            1
+        ],
+        "skillIds": [
+            6
+        ],
+        "keywords": [
+            "C#",
+            "Programming",
+            "Object oriented programming",
+            "Language"
+        ],
+        "hasQuiz": true,
+        "hasExercises": true,
+        "courseContents": []
     },
     {
-        "courseId": 8,
-        "courseName": "Angular-4",
-        "courseCode": "Ang-0022",
-        "releaseDate": "May 15, 2012",
-        "description": "Angular - 4 Simple JS to develop web app",
-        "price": 11.55,
-        "starRating": 3.7,
-        "imageUrl": "./assets/images/Ang.jpg"
+        "courseId": "ES005",
+        "name": "ElasticSearch",
+        "duration": 0,
+        "shortDescription": "Learn Elasticsearch from scratch and lay the foundation for learning the ELK stack (Elasticsearch, Logstash & Kibana).",
+        "longDescription": "This course is an excellent way for you to quickly learn Elasticsearch and to put your knowledge to work in just a few hours! If so, then you have come to the right place, as this is the most comprehensive course on Elasticsearch that you will find",
+        "authors": [
+            {
+                "authorId": "2",
+                "authorName": "Sheela E N",
+                "authorURI": "/2"
+            }
+        ],
+        "complexityLevel": 3,
+        "imagePath": "http://172.26.76.71/myimages/elasticsearch.png",
+        "courseUpdatedDate": "2019-02-11T00:00:00",
+        "courseObjectives": "Build a powerful search engine with Elasticsearch, Write complex search queries",
+        "prerequisites": "Knowledge of JSON, any programming language",
+        "overallRating": "4",
+        "categories": [
+            6
+        ],
+        "skillIds": [
+            1
+        ],
+        "keywords": [
+            "ElasticsSearch",
+            "ELK",
+            "Elastic",
+            "Search"
+        ],
+        "hasQuiz": true,
+        "hasExercises": true,
+        "courseContents": [
+            {
+                "topicId": 1,
+                "name": "Getting Started",
+                "duration": 15,
+                "subTopics": [
+                    {
+                        "topicId": 1,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "Introduction to ElasticsSearch ",
+                        "duration": 5.16,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\02_Introducing Elasticsearch\\\\06_Introducing Elasticsearch.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 1,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Basic Concepts in Elasticsearch",
+                        "duration": 9,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\02_Introducing Elasticsearch\\\\08_Basic Concepts in Elasticsearch.mp4"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "topicId": 2,
+                "name": "03_Executing CRUD Operations Using the Elasticsearch APIs",
+                "duration": 5.37,
+                "subTopics": [
+                    {
+                        "topicId": 2,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "Creating Indices",
+                        "duration": 13.35,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\03_Executing CRUD Operations Using the Elasticsearch APIs\\02_Creating Indices.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Adding Documents to an Index",
+                        "duration": 0.41,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\03_Executing CRUD Operations Using the Elasticsearch APIs\\03_Adding Documents to an Index.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 3,
+                        "parentSubTopicId": 0,
+                        "name": "Retrieving Whole and Partial Documents",
+                        "duration": 2.44,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": " \\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\03_Executing CRUD Operations Using the Elasticsearch APIs\\\\04_Retrieving Whole and Partial Documents.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 4,
+                        "parentSubTopicId": 0,
+                        "name": "Updating Whole and Partial Documents",
+                        "duration": 5.25,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": " \\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\03_Executing CRUD Operations Using the Elasticsearch APIs\\05_Updating Whole and Partial Documents.mp4"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "topicId": 2,
+                "name": "Deleting Documents and Indices",
+                "duration": 5.25,
+                "materials": [
+                    {
+                        "materialFormat": "Video",
+                        "materialPath": " \\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\03_Executing CRUD Operations Using the Elasticsearch APIs\\06_Deleting Documents and Indices.mp4"
+                    }
+                ]
+            },
+            {
+                "topicId": 3,
+                "name": "Executing Search Requests Using Elasticsearch Query DSL",
+                "duration": 19.37,
+                "subTopics": [
+                    {
+                        "topicId": 3,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "The Query and Filter Context",
+                        "duration": 1,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\04_Executing Search Requests Using Elasticsearch Query DSL\\02_The Query and Filter Context.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Search Using Query Params",
+                        "duration": 5.54,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\04_Executing Search Requests Using Elasticsearch Query DSL\\04_Search Using Query Params.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 3,
+                        "parentSubTopicId": 0,
+                        "name": "Search Using the Request Body",
+                        "duration": 5.14,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\04_Executing Search Requests Using Elasticsearch Query DSL\\05_Search Using the Request Body.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 4,
+                        "parentSubTopicId": 0,
+                        "name": "Full Text Searches",
+                        "duration": 7.09,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\04_Executing Search Requests Using Elasticsearch Query DSL\\07_Full Text Searches.mp4"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "topicId": 4,
+                "name": "Getting Started",
+                "duration": 15,
+                "subTopics": [
+                    {
+                        "topicId": 4,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "Types of Aggregations",
+                        "duration": 2.55,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\05_Executing Analytical Queries Through Aggregations\\01_Types of Aggregations.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Implementing Metric Aggregations",
+                        "duration": 4.33,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\05_Executing Analytical Queries Through Aggregations\\02_Implementing Metric Aggregations.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 3,
+                        "parentSubTopicId": 0,
+                        "name": "The Cardinality Aggregation",
+                        "duration": 5.13,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\05_Executing Analytical Queries Through Aggregations\\03_The Cardinality Aggregation.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 4,
+                        "parentSubTopicId": 0,
+                        "name": "04_Implementing Bucketing Aggregations",
+                        "duration": 5.13,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\05_Executing Analytical Queries Through Aggregations\\04_Implementing Bucketing Aggregations.mp4"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
-        "courseId": 10,
-        "courseName": "JQuery",
-        "courseCode": "JQ-0042",
-        "releaseDate": "October 15, 2010",
-        "description": "JQuery Simple JavaScript",
-        "price": 35.95,
-        "starRating": 4.6,
-        "imageUrl": "./assets/images/Jquery.jpg"
+        "courseId": "P006",
+        "name": "GIT",
+        "duration": 0,
+        "shortDescription": "Git Complete: The definitive, step-by-step guide to Git",
+        "longDescription": "This course is designed to be a comprehensive approach to Git, which means no prior knowledge or experience is required but students will emerge at the end with a very solid understanding and hands-on experience with Git and related source control concepts.",
+        "authors": [
+            {
+                "authorId": "5",
+                "authorName": "Ganesh Babu",
+                "authorURI": "/5"
+            }
+        ],
+        "complexityLevel": 3,
+        "imagePath": "http://172.26.76.71/myimages/git.png",
+        "courseUpdatedDate": "2019-02-14T00:00:00",
+        "courseObjectives": "Learn the key concepts of the Git source control system, Compare the different states in Git and compare between branches and commits, Create branches and resolve merge conflicts like a pro",
+        "prerequisites": "Knowledge of source control and any programming language",
+        "overallRating": "4",
+        "categories": [
+            1
+        ],
+        "skillIds": [
+            1
+        ],
+        "keywords": [
+            "GIT",
+            "Source Control",
+            "Repository",
+            "Repo"
+        ],
+        "hasQuiz": true,
+        "hasExercises": true,
+        "courseContents": [
+            {
+                "topicId": 1,
+                "name": "Introduction to Git",
+                "duration": 15,
+                "subTopics": [
+                    {
+                        "topicId": 1,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "02_A Brief History",
+                        "duration": 2.15,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\01_Introduction to Git\\02_A Brief History.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 1,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Installing Git on Windows",
+                        "duration": 4,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\01_Introduction to Git\\05_Installing Git on Windows.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 1,
+                        "subTopicId": 3,
+                        "parentSubTopicId": 0,
+                        "name": "Installing Git on Linux",
+                        "duration": 0.44,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\01_Introduction to Git\\06_Installing Git on Linux.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 1,
+                        "subTopicId": 4,
+                        "parentSubTopicId": 0,
+                        "name": "Configuring Git",
+                        "duration": 9.15,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\01_Introduction to Git\\08_How to Configure Git.webm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "topicId": 2,
+                "name": "Working Locally with Git",
+                "duration": 20,
+                "subTopics": [
+                    {
+                        "topicId": 2,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "Creating a local repository, adding files, and committing changes",
+                        "duration": 2.2,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\02_Working Locally with Git\\02_Creating a local repository, adding files, and committing changes.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Viewing history and diffs",
+                        "duration": 3.41,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\02_Working Locally with Git\\03_Viewing history and diffs.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 3,
+                        "parentSubTopicId": 0,
+                        "name": "Staging changes as multiple commits",
+                        "duration": 2.24,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\02_Working Locally with Git\\04_Staging changes as multiple commits.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 4,
+                        "parentSubTopicId": 0,
+                        "name": "Deleting and renaming files",
+                        "duration": 2.15,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\02_Working Locally with Git\\05_Deleting and renaming files.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 5,
+                        "parentSubTopicId": 0,
+                        "name": "Undoing changes to the working copy",
+                        "duration": 1.48,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\02_Working Locally with Git\\06_Undoing changes to the working copy.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 6,
+                        "parentSubTopicId": 0,
+                        "name": "Undoing redoing changes in the repository",
+                        "duration": 2.45,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\02_Working Locally with Git\\07_Undoing redoing changes in the repository.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 7,
+                        "parentSubTopicId": 0,
+                        "name": "Cleaning the working copy",
+                        "duration": 1.45,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\02_Working Locally with Git\\08_Cleaning the working copy.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 2,
+                        "subTopicId": 8,
+                        "parentSubTopicId": 0,
+                        "name": "Ignoring files with gitignore",
+                        "duration": 2.45,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\02_Working Locally with Git\\09_Ignoring files with gitignore.webm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "topicId": 3,
+                "name": "Working Remotely with Git",
+                "duration": 22,
+                "subTopics": [
+                    {
+                        "topicId": 3,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "Cloning a Remote Repository",
+                        "duration": 1.1,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\03_Working Remotely with Git\\02_Cloning a Remote Repository.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Basic Repository Statistics",
+                        "duration": 3.34,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\03_Working Remotely with Git\\03_Basic Repository Statistics.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 3,
+                        "parentSubTopicId": 0,
+                        "name": "Viewing Commits",
+                        "duration": 2.26,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\03_Working Remotely with Git\\04_Viewing Commits.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 4,
+                        "parentSubTopicId": 0,
+                        "name": "Viewing Branches and Tags",
+                        "duration": 0.53,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\03_Working Remotely with Git\\06_Viewing Branches and Tags.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 5,
+                        "parentSubTopicId": 0,
+                        "name": "Fetching from a Remote",
+                        "duration": 3.23,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\03_Working Remotely with Git\\07_Fetching from a Remote.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 6,
+                        "parentSubTopicId": 0,
+                        "name": "Pulling from a Remote",
+                        "duration": 1.58,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\03_Working Remotely with Git\\08_Pulling from a Remote.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 7,
+                        "parentSubTopicId": 0,
+                        "name": "Pushing to a Remote",
+                        "duration": 2.57,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\03_Working Remotely with Git\\09_Pushing to a Remote.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 8,
+                        "parentSubTopicId": 0,
+                        "name": "Creating and Verifying Tagse",
+                        "duration": 3.2,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\03_Working Remotely with Git\\10_Creating and Verifying Tags.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 3,
+                        "subTopicId": 8,
+                        "parentSubTopicId": 0,
+                        "name": "Pushing Tags to a Remote",
+                        "duration": 2.52,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\03_Working Remotely with Git\\11_Pushing Tags to a Remote.webm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "topicId": 4,
+                "name": "Branching, Merging, and Rebasing with Git",
+                "duration": 40,
+                "subTopics": [
+                    {
+                        "topicId": 4,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "Visualizing branch",
+                        "duration": 2.1,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\04_Branching, Merging, and Rebasing with Git\\02_Visualizing branch.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Creating local branchess",
+                        "duration": 1.25,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\04_Branching, Merging, and Rebasing with Git\\03_Creating local branches.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 3,
+                        "parentSubTopicId": 0,
+                        "name": "Difference between branches and tags",
+                        "duration": 1.52,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\04_Branching, Merging, and Rebasing with Git\\04_Difference between branches and tags.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 4,
+                        "parentSubTopicId": 0,
+                        "name": "Renaming and deleting branches",
+                        "duration": 2.28,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\04_Branching, Merging, and Rebasing with Git\\05_Renaming and deleting branches.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 5,
+                        "parentSubTopicId": 0,
+                        "name": "Recovering deleted commits",
+                        "duration": 2.1,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\04_Branching, Merging, and Rebasing with Git\\06_Recovering deleted commits.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 6,
+                        "parentSubTopicId": 0,
+                        "name": "Stashing changes",
+                        "duration": 5.03,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\04_Branching, Merging, and Rebasing with Git\\07_Stashing changes.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 7,
+                        "parentSubTopicId": 0,
+                        "name": "Merging branches",
+                        "duration": 5.21,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\04_Branching, Merging, and Rebasing with Git\\08_Merging branches.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 8,
+                        "parentSubTopicId": 0,
+                        "name": "Rebasing changes",
+                        "duration": 7,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\04_Branching, Merging, and Rebasing with Git\\09_Rebasing changes.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 9,
+                        "parentSubTopicId": 0,
+                        "name": "Cherry-picking changes",
+                        "duration": 4.24,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\04_Branching, Merging, and Rebasing with Git\\10_Cherry-picking changes.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 10,
+                        "parentSubTopicId": 0,
+                        "name": "Creating a remote branch",
+                        "duration": 3.1,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\04_Branching, Merging, and Rebasing with Git\\11_Creating a remote branch.webm"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 4,
+                        "subTopicId": 11,
+                        "parentSubTopicId": 0,
+                        "name": "Deleting a remote branch",
+                        "duration": 2.5,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\"\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\\\\\\\\\VC\\\\\\\\\\\\\\\\CBT\\\\\\\\GIT\\\\Git Fundamentals\\\\04_Branching, Merging, and Rebasing with Git\\12_Deleting a remote branch.webm"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "courseId": "ML006",
+        "name": "Python",
+        "duration": 0,
+        "shortDescription": "This Python For Beginners Course Teaches You The Python Language Fast",
+        "longDescription": "This is the most comprehensive, yet straight-forward, course for the Python programming language. Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3 ",
+        "authors": [
+            {
+                "authorId": "5",
+                "authorName": "Ganesh Babu",
+                "authorURI": "/5"
+            }
+        ],
+        "complexityLevel": 3,
+        "imagePath": "http://172.26.76.71/myimages/python.png",
+        "courseUpdatedDate": "2019-02-12T00:00:00",
+        "courseObjectives": "Learn to use Python professionally, learning both Python 2 and Python 3, Learn advanced Python features, like the collections module and how to work with timestamps!,Get an understanding of how to create GUIs in the Jupyter Notebook system!",
+        "prerequisites": "Basic knowledge of concepts like Variables, Loops, Control Statements etc",
+        "overallRating": "4",
+        "categories": [
+            6
+        ],
+        "skillIds": [
+            1
+        ],
+        "keywords": [
+            "Python",
+            "Machine Learning",
+            "ML",
+            "Scripting"
+        ],
+        "hasQuiz": true,
+        "hasExercises": true,
+        "courseContents": [
+            {
+                "topicId": 1,
+                "name": "Python Programming Tutorial - 1",
+                "duration": 193,
+                "subTopics": [
+                    {
+                        "topicId": 1,
+                        "subTopicId": 1,
+                        "parentSubTopicId": 0,
+                        "name": "Python Programming Tutorial - 1 - Installing Python",
+                        "duration": 3.18,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\\\\\\\\\bglbg1phfs01\\\\\\\\VC\\\\\\\\CBT\\\\\\\\Python\\\\\\\\Python Programming Tutorial - 1 - Installing Python.mp4"
+                            }
+                        ]
+                    },
+                    {
+                        "topicId": 1,
+                        "subTopicId": 2,
+                        "parentSubTopicId": 0,
+                        "name": "Python Programming Tutorial _ Learn Python programming _ Python language",
+                        "duration": 190,
+                        "materials": [
+                            {
+                                "materialFormat": "Video",
+                                "materialPath": "\\\\\\\\bglbg1phfs01\\\\VC\\\\CBT\\Searching and Analyzing Data with Elasticsearch Getting Started\\02_Introducing Elasticsearch\\\\08_Basic Concepts in Elasticsearch.mp4"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "courseId": "LMS219",
+        "name": "Hybris Commerce 6 Developer Part 1",
+        "origin": "LMS",
+        "duration": 40,
+        "shortDescription": "Hybris is an ecommerce platform which allows its consumers to sell in both B2B and B2C markets effectively.",
+        "longDescription": "Hybris is an ecommerce platform which allows its consumers to sell in both B2B and B2C markets effectively. The Hybris Commerce Developer Part 1 training course teaches participants the fundamentals of working and developing the backend of an e-commerce application and also creating a basic storefront using a B2C Accelerator as the base.",
+        "authors": [
+            {
+                "authorId": "5",
+                "authorName": "Ganesh Babu",
+                "authorURI": "/5"
+            }
+        ],
+        "complexityLevel": 4,
+        "imagePath": "http://172.26.76.71/myimages/hybris1.png",
+        "courseUpdatedDate": "2018-02-06T00:00:00",
+        "courseObjectives": "The Hybris Commerce Developer Part 1 training course teaches participants the fundamentals of working and developing the backend of an e-commerce application and also creating a basic storefront using a B2C Accelerator as the base.",
+        "prerequisites": "Good knowledge in Java, Java EE and Spring frameworkn",
+        "overallRating": "4.9",
+        "categories": [
+            1
+        ],
+        "skillIds": [
+            100
+        ],
+        "keywords": [
+            "hybris",
+            "ecom",
+            "ecommerce",
+            "offbiz"
+        ],
+        "hasQuiz": true,
+        "hasExercises": true,
+        "courseContents": [
+            {
+                "topicId": 1,
+                "name": "Hybris Commerce 6 Developer Part 1",
+                "duration": 40,
+                "materials": [
+                    {
+                        "materialFormat": "ExternalUrl",
+                        "materialPath": "https://lms.sonata-software.com/course/view.php?id=219"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "courseId": "LMS236",
+        "name": ".Net Core",
+        "origin": "LMS",
+        "duration": 4,
+        "shortDescription": "Learn what ASP.NET Core is, how to get and install it, and how to create a very quick sample application.",
+        "longDescription": "Learn what ASP.NET Core is, how to get and install it, and how to create a very quick sample application.",
+        "authors": [
+            {
+                "authorId": "3",
+                "authorName": "Jebamalai Mary",
+                "authorURI": "/3"
+            }
+        ],
+        "complexityLevel": 4,
+        "imagePath": "http://172.26.76.71/myimages/dotnetcore.jpg",
+        "courseUpdatedDate": "2018-02-06T00:00:00",
+        "courseObjectives": "Learn about Microsoft ASP.NET Core and middleware.  Get an introduction to routing and MVC.",
+        "prerequisites": ".Net Programming",
+        "overallRating": "4.9",
+        "categories": [
+            1,
+            8
+        ],
+        "skillIds": [
+            101
+        ],
+        "keywords": [
+            ".net",
+            "core"
+        ],
+        "hasQuiz": true,
+        "hasExercises": true,
+        "courseContents": [
+            {
+                "topicId": 1,
+                "name": ".Net Core",
+                "duration": 4,
+                "materials": [
+                    {
+                        "materialFormat": "ExternalUrl",
+                        "materialPath": "https://lms.sonata-software.com/course/view.php?id=236"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "courseId": "LMS402",
+        "name": "Azure for .Net Developers",
+        "origin": "LMS",
+        "duration": 5,
+        "shortDescription": "This course explains how to develop and deploy .NET web applications and services in Microsoft Azure.",
+        "longDescription": "This course explains how to develop and deploy .NET web applications and services in Microsoft Azure.",
+        "authors": [
+            {
+                "authorId": "9",
+                "authorName": "Roja P",
+                "authorURI": "/9"
+            }
+        ],
+        "complexityLevel": 4,
+        "imagePath": "http://172.26.76.71/myimages/azure.png",
+        "courseUpdatedDate": "2018-02-06T00:00:00",
+        "courseObjectives": "This course explains how to develop and deploy .NET web applications and services in Microsoft Azure.",
+        "prerequisites": " .Net Development ",
+        "overallRating": "4.9",
+        "categories": [
+            1,
+            9,
+            15
+        ],
+        "skillIds": [
+            102
+        ],
+        "keywords": [
+            "azure",
+            ".net",
+            "cloud",
+            "cloud computing",
+            "aws"
+        ],
+        "hasQuiz": true,
+        "hasExercises": true,
+        "courseContents": [
+            {
+                "topicId": 1,
+                "name": "Azure for .Net Developers",
+                "duration": 5,
+                "materials": [
+                    {
+                        "materialFormat": "ExternalUrl",
+                        "materialPath": "https://lms.sonata-software.com/course/view.php?id=402"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "courseId": "LMS8",
+        "name": "Core Java",
+        "origin": "LMS",
+        "duration": 40,
+        "shortDescription": "Java is a programming language and a platform. Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers 'write once, run anywhere' meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.",
+        "longDescription": "Java is a programming language and a platform. Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers 'write once, run anywhere' meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.",
+        "authors": [
+            {
+                "authorId": "5",
+                "authorName": "Ganesh Babu",
+                "authorURI": "/5"
+            }
+        ],
+        "complexityLevel": 4,
+        "imagePath": "http://172.26.76.71/myimages/corejava.png",
+        "courseUpdatedDate": "2018-02-06T00:00:00",
+        "courseObjectives": "This course has been prepared for the beginners to help them understand the basic to advanced concepts related to Java Programming language.",
+        "prerequisites": "Any Programming language",
+        "overallRating": "4.9",
+        "categories": [
+            1,
+            12
+        ],
+        "skillIds": [
+            103
+        ],
+        "keywords": [
+            "Java",
+            "Core"
+        ],
+        "hasQuiz": true,
+        "hasExercises": true,
+        "courseContents": [
+            {
+                "topicId": 1,
+                "name": "Core Java",
+                "duration": 5,
+                "materials": [
+                    {
+                        "materialFormat": "ExternalUrl",
+                        "materialPath": "https://lms.sonata-software.com/course/view.php?id=8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "courseId": "LMS293",
+        "name": "Behavior Driven Development using Cucumber",
+        "origin": "LMS",
+        "duration": 5,
+        "shortDescription": "Behavior Driven Development (BDD) is a software development process that originally emerged from Test Driven Development (TDD). BDD uses examples to illustrate the behavior of the system that are written in a readable and understandable language for everyone involved in the development.",
+        "longDescription": "Behavior Driven Development (BDD) is a software development process that originally emerged from Test Driven Development (TDD). BDD uses examples to illustrate the behavior of the system that are written in a readable and understandable language for everyone involved in the development.",
+        "authors": [
+            {
+                "authorId": "5",
+                "authorName": "Ganesh Babu",
+                "authorURI": "/5"
+            }
+        ],
+        "complexityLevel": 4,
+        "imagePath": "http://172.26.76.71/myimages/cucumber.jpg",
+        "courseUpdatedDate": "2018-02-06T00:00:00",
+        "courseObjectives": "This course explains BDD",
+        "prerequisites": " Good knowledge in Java and unit testing",
+        "overallRating": "4.9",
+        "categories": [
+            1
+        ],
+        "skillIds": [
+            106
+        ],
+        "keywords": [
+            "Java",
+            "BDD",
+            "Unit Testing"
+        ],
+        "hasQuiz": true,
+        "hasExercises": true,
+        "courseContents": [
+            {
+                "topicId": 1,
+                "name": "Behavior Driven Development using Cucumber",
+                "duration": 5,
+                "materials": [
+                    {
+                        "materialFormat": "ExternalUrl",
+                        "materialPath": "https://lms.sonata-software.com/course/view.php?id=293"
+                    }
+                ]
+            }
+        ]
     }
 ]

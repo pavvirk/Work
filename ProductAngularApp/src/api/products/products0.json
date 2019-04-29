@@ -1,0 +1,52 @@
+[
+    {
+        "courseId": 1,
+        "courseName": "OOJS",
+        "courseCode": "OO-0011",
+        "releaseDate": "March 19, 2016",
+        "description": "This Course explains you about Object Oriented JavaScript",
+        "price": 19.95,
+        "starRating": 3.2,
+        "imageUrl": "./assets/images/OOJS.jpg"
+    },
+    {
+        "courseId": 2,
+        "courseName": "HTML",
+        "courseCode": "HT-0023",
+        "releaseDate": "March 18, 2016",
+        "description": "After completion of this course you can design a Web page",
+        "price": 32.99,
+        "starRating": 4.2,
+        "imageUrl":"./assets/images/HTML.jpg"
+    },
+    {
+        "courseId": 4,
+        "courseName": "Core Java",
+        "courseCode": "JA-0048",
+        "releaseDate": "June, 2006",
+        "description": "Core Java",
+        "price": 8.9,
+        "starRating": 4.8,
+        "imageUrl": "./assets/images/corejava.jpg"
+    },
+    {
+        "courseId": 8,
+        "courseName": "Angular-4",
+        "courseCode": "Ang-0022",
+        "releaseDate": "May 15, 2012",
+        "description": "Angular - 4 Simple JS to develop web app",
+        "price": 11.55,
+        "starRating": 3.7,
+        "imageUrl": "./assets/images/Ang.jpg"
+    },
+    {
+        "courseId": 10,
+        "courseName": "JQuery",
+        "courseCode": "JQ-0042",
+        "releaseDate": "October 15, 2010",
+        "description": "JQuery Simple JavaScript",
+        "price": 35.95,
+        "starRating": 4.6,
+        "imageUrl": "./assets/images/Jquery.jpg"
+    }
+]

@@ -1,3 +1,53 @@
 thead {
     color: #337AB7;
 }
+
+.boxstyle {
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px lightgrey;
+    padding:10px
+}
+
+.detailsstyle{
+ display:flex;
+ margin-top: 25px;
+}
+
+.displayblock{
+    display:block;
+    font-weight: bold;
+
+}
+
+.detailsmargin{
+    margin-right: 30px;
+}
+
+.red{
+    color:red;
+}
+
+.gold{
+    color:#ffa700;
+}
+
+.gray{
+    color: gray
+}
+
+
+
+.timer{
+    height: 20px;
+    position: relative;
+    right: 7px;
+    top: 10px;
+}
+
+.person{
+    height: 15px;
+    position: relative;
+    right: 6px;
+    top: 12px;
+}

@@ -1,64 +1,85 @@
-<div class='panel panel-primary'>
-    <div class='panel-heading'>
-        {{pageTitle}}
-    </div>
-    <div class='panel-body'>
-        <div class='row'>
-            <div class='col-md-2'>Filter by:</div>
-            <div class='col-md-4'>
-                <input type='text' [(ngModel)]='listFilter' />
+<div class="table" *ngIf="products && products.length">
+  <div>
+    <div *ngFor="let product of filteredProducts">
+      <div class="row boxstyle">
+        <div class="col-md-4">
+          <img
+            [src]="product.imageUrl"
+            [title]="product.courseName"
+            [style.width.px]="200"
+            [style.height.px]="152"
+            [style.margin.px]="2"
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="row red">
+            {{product.shortDescription}}
+          </div>
+          <div class="row gray">
+                {{product.longDescription}}
+          </div>
+          <div class="row detailsstyle">
+            <div class="detailsmargin">
+              <span class="displayblock gold">
+                <pm-star [rating]="product.overallRating"> </pm-star>
+              </span>
+              ratings
             </div>
-        </div>
-        <div class='row'>
-            <div class='col-md-6'>
-                <h3>Filtered by: {{listFilter}} </h3>
+            <img class="timer" src="./assets/images/timer.png" />
+            <div class="detailsmargin">
+              <span class="displayblock">
+                    {{product.duration}} Weeks
+              </span>
+              duration
             </div>
+            <img class="person" src="./assets/images/user.png" />
+            <div>
+              <span class="displayblock">
+               123
+              </span>
+              enrolled
+            </div>
+          </div>
+          <!-- <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-3">Name:</div>
+                    <div class="col-md-6">{{ product.courseName }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3">Code:</div>
+                    <div class="col-md-6">
+                      {{
+                        product.courseCode | lowercase | convertToSpaces: "-"
+                      }}
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3">Description:</div>
+                    <div class="col-md-6">{{ product.description }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3">Availability:</div>
+                    <div class="col-md-6">{{ product.releaseDate }}</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3">Price:</div>
+                    <div class="col-md-6">
+                      {{ product.price | currency: "USD":true }}
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3">5 Star Rating:</div>
+                    <div class="col-md-6">
+                      <pm-star [rating]="product.starRating"> </pm-star>
+                    </div>
+                  </div>
+                </div> -->
         </div>
-        <div class='table-responsive'>
-            <table class='table'
-                    *ngIf='products && products.length'>
-                <thead>
-                    <tr>
-                        <th>
-                            <button class='btn btn-primary'
-                                (click)='toggleImage()'>
-                                {{showImage ? 'Hide' : 'Show'}} Image
-                            </button>
-                        </th>
-                        <th>Course</th>
-                        <th>Code</th>
-                        <th>Available</th>
-                        <th>Price</th>
-                        <th>5 Star Rating</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr *ngFor='let product of filteredProducts'>
-                        <td>
-                            <img *ngIf='showImage'
-                                [src]='product.imageUrl'
-                                [title]='product.courseName'
-                                [style.width.px]='imageWidth'
-                                [style.margin.px]='imageMargin'>
-                        </td>
-                        <td><a [routerLink]="['/products', product.courseId]">
-                                {{ product.courseName }}
-                            </a>
-						</td>
-                        <td>{{ product.courseCode | lowercase | convertToSpaces: '-' }}</td>
-                        <td>{{ product.releaseDate }}</td>
-                        <td>{{ product.price | currency:'USD':true:'1.2-2'}}</td>
-                        <td>
-                            <pm-star [rating]='product.starRating'
-                                (ratingClicked)='onRatingClicked($event)'>
-							</pm-star>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+      </div>
     </div>
+  </div>
 </div>
-<div *ngIf='errorMessage' class='alert alert-danger'>
-    Error: {{ errorMessage }}
+
+<div *ngIf="errorMessage" class="alert alert-danger">
+  Error: {{ errorMessage }}
 </div>
