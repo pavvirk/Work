@@ -1,0 +1,19 @@
+
+  <h1>Welcome to myKart!</h1>
+  <input type="text" placeholder="search" >
+<table class="table table-bordered">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Username </th>
+    <th>Email</th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let prod of myProducts "> 
+    <td>{{prod.firstname}}</td>
+    <td>{{prod.lastname}}</td>
+    <td>{{prod.city}}</td>
+
+  </tr>
+</tbody>  

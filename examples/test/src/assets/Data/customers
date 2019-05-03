@@ -1,0 +1,21 @@
+[
+    {
+    "id": 1,
+    "firstname": "chetan",
+    "lastname": "S",
+    "city": "Vijayapur"
+    },
+    {
+        "id": 2,
+        "firstname": "Ravi ",
+        "lastname": "R",
+        "city": "Gadag"
+        },
+        {
+            "id": 3,
+            "firstname": "Vijay",
+            "lastname": "V",
+            "city": "Bangalore"
+            }
+    
+]
