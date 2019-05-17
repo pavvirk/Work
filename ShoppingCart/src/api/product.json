@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productname": "Qualcomm® Snapdragon™ 845",
+      "productimg": "../assets/images/qualcom.png",
+      "productprice": 100000,
+      "productdesc": "The Snapdragon 845 mobile platform is engineered with the functionality and features that will allow users to do even more with their mobile devices.."
+    },
+    {
+      "id": 2,
+      "productname": "Qualcomm® Snapdragon™ 660",
+      "productimg": "../assets/images/qualcom.png",
+      "productprice": 20000,
+      "productdesc": "High-end features in the Qualcomm® Snapdragon™ 660 mobile platform make it our most powerful 600-tier platform to date, with the powerful Qualcomm® Artificial Intelligence Engine (AIE)"
+    },
+    {
+      "id": 3,
+      "productname": "Qualcomm® Snapdragon™ 660",
+    "productimg": "../assets/images/qualcom.png",
+    "productprice": 20000,
+    "productdesc": "High-end features in the Qualcomm® Snapdragon™ 660 mobile platform make it our most powerful 600-tier platform to date, with the powerful Qualcomm® Artificial Intelligence Engine (AIE)"
+    },
+    {
+      "id": 4,
+      "productname": "Qualcomm® Snapdragon™ 660",
+    "productimg": "../assets/images/qualcom.png",
+    "productprice": 20000,
+    "productdesc": "High-end features in the Qualcomm® Snapdragon™ 660 mobile platform make it our most powerful 600-tier platform to date, with the powerful Qualcomm® Artificial Intelligence Engine (AIE)"
+    },
+    {
+      "id": 5,
+      "productname": "Qualcomm® Snapdragon™ 660",
+    "productimg": "../assets/images/qualcom.png",
+    "productprice": 20000,
+    "productdesc": "High-end features in the Qualcomm® Snapdragon™ 660 mobile platform make it our most powerful 600-tier platform to date, with the powerful Qualcomm® Artificial Intelligence Engine (AIE)"
+    },
+    {
+      "id": 6,
+      "productname": "Qualcomm® Snapdragon™ 660",
+    "productimg": "../assets/images/qualcom.png",
+    "productprice": 20000,
+    "productdesc": "High-end features in the Qualcomm® Snapdragon™ 660 mobile platform make it our most powerful 600-tier platform to date, with the powerful Qualcomm® Artificial Intelligence Engine (AIE)"
+    },
+    {
+      "id": 7,
+      "productname": "Qualcomm® Snapdragon™ 660",
+    "productimg": "../assets/images/qualcom.png",
+    "productprice": 20000,
+    "productdesc": "High-end features in the Qualcomm® Snapdragon™ 660 mobile platform make it our most powerful 600-tier platform to date, with the powerful Qualcomm® Artificial Intelligence Engine (AIE)"
+    },
+    {
+      "productname": "dsf",
+      "productdesc": "dsf",
+      "productprice": "dsfdsf",
+      "productimg": "dsff",
+      "id": 8
+    },
+    {
+      "productname": "Bluetooth",
+      "productimg": "../assets/images/angular.png",
+      "productprice": "6000",
+      "productdesc": "Bluetooth",
+      "id": 9
+    },
+    {
+      "productname": "Qualcomm® Snapdragon™ 845",
+      "productimg": "../assets/images/qualcom.png",
+      "productprice": "100000",
+      "productdesc": "The Snapdragon 845 mobile platform is engineered with the functionality and features that will allow users to do even more with their mobile devices..",
+      "id": 10
+    }
+  ]
+}

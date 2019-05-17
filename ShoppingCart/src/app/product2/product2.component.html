@@ -1,0 +1,21 @@
+<p>
+    <!-- product works! -->
+  </p>
+  
+  <div class="card">
+      <div class="price" [class] = "deal ? 'positive' : 'negative'"> Tuesday Sale - Deal off the day ends today</div> 
+      <h1>{{ name }}</h1>
+    <img src="../../assets/images/qualcom.png" alt="qualcom" style="width:80%">
+    
+    <p class="price">INR : {{ price }} Rs</p>
+    <!-- <p>The Snapdragon 845 mobile platform is engineered with the functionality and features that will allow users to do even more with their mobile devices..</p> -->
+  
+    <div class="quantity">
+      <button class="incr" (click)="onClickMeIncr()" [disabled]=disabled_buttons_inc> <b>+</b> </button> 
+        <input type="text" class="qantity-text" [(ngModel)]="quantity_num"> 
+      <button class="decre" (click)="onClickMeDec()" [disabled]=disabled_buttons_dec> <b>-</b> </button>
+    </div>
+    <p><button [disabled]=add_to_cart>Add to Cart</button></p>
+  </div>
+  
+  

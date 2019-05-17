@@ -1,0 +1,28 @@
+
+
+<form class="form-content" [formGroup]="formdata" (ngSubmit) = "onClickSubmit(formdata.value)">
+ <div>
+   <h1> Add Product </h1>
+    <div class="container">
+        <label for="productname"><b>Product Name</b></label>
+        <input type="text" placeholder="Enter Product Name"  formControlName ="productname">
+    
+        <label for="productdesc"><b>Product Description</b></label>
+        <input type="text" placeholder="Enter Product Description" formControlName ="productdesc">
+          
+        <label for="productprice"><b>Product Price</b></label>
+        <input type="text" placeholder="Enter Product Price" formControlName ="productprice">
+
+        <!-- <label for="prodimg"><b>Product Image</b></label>
+        <input type="file" (onchange)="handleUpload($event)" formControlName ="prodimg">
+
+        <img [src]="Logo" /> -->
+
+        <label for="productimg"><b>URL</b></label>
+        <input type="text" placeholder="Enter Product Description" formControlName ="productimg">
+
+        <button type="submit" >Add Product</button>
+        <!-- <a [routerLink]="['/product2']">Sample prodcut</a> -->
+      </div>
+ </div>
+</form>

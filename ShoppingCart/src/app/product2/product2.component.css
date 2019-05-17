@@ -1,0 +1,53 @@
+.card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    border-style: solid;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    /* color: grey; */
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    /* color: red; */
+    /* background-color: ; */
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  
+  .incr{
+      width: 10px
+  }
+
+  .decre{
+    width: 10px
+}
+
+.quantity, .qantity-text{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center
+}
+
+.positive{
+    color: rgb(128, 36, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 500;
+    font-weight: bold
+}
+
+.negative{
+    display: none
+}

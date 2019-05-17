@@ -1,0 +1,18 @@
+{{ title }}
+<form class="form-content" [formGroup]="formdata" (ngSubmit) = "onClickSubmit(formdata.value)">
+  <div class="imgcontainer">
+      <h1>e-Commerce</h1>
+    <img src="/../../assets/images/angular.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username"  formControlName ="Username">
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" formControlName ="password">
+      
+    <button type="submit" [disabled] = "!formdata.valid">Login</button>
+    <a [routerLink]="['product2']">Sample prodcut</a>
+  </div>
+</form>

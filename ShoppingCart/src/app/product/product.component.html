@@ -1,0 +1,21 @@
+  
+<input [(ngModel)]="searchtext" placeholder="enter search term here">
+<div *ngFor="let prod of product | filterProd : searchtext">
+  <div class="card">
+     <div class="price" [class] = "deal ? 'positive' : 'negative'"> Tuesday Sale - Deal off the day ends today</div> 
+    <h1>{{ prod.productname }}</h1>
+    <div>
+  <img appShadow src={{prod.productimg}} alt="qualcom" style="width:80%" /> </div>
+  <h1>$ {{ prod.productprice }} </h1>
+ <p>The Snapdragon 845 mobile platform is engineered with the functionality and features that will allow users to do even more with their mobile devices..</p> 
+
+  <div class="quantity">
+      <button class="incr" (click)="onClickMeIncr(prod.id)" [disabled]=disabled_buttons_inc>+</button> 
+          <input type="text" class="qantity-text" [(ngModel)]="quantity_num"> 
+        <button class="decre" (click)="onClickMeDec()" [disabled]=disabled_buttons_dec>-</button>
+  </div>
+  <p><button [disabled]=add_to_cart>Add to Cart</button></p>
+</div>
+<!-- <input type="radio" name="colors" (click)="color='lightgreen'"> -->
+</div>
+<div appHighlight="green"> Highlight me</div>
